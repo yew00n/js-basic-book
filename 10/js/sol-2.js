@@ -6,4 +6,4 @@
         document.body.style.background = bgColor;
     }
 
-    changeBg();
+    window.onload = changeBg();
